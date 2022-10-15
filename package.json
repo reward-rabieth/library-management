@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc ./build",
-    "start": "tsx watch src/app.ts"
-  
+    "start": "tsx watch src/app.ts",
+    "test": "vitest"
   },
   "dependencies": {
     "@fastify/swagger": "^8.0.0",
@@ -31,5 +31,4 @@
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   }
-  
 }
